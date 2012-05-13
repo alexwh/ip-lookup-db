@@ -1,3 +1,9 @@
 Checks the user's IP against a DB and if there was an entry of the IP in the DB, return true.
 
 Originally used in an environment for a VPN site - to show their users were secure.
+
+
+Make sure to edit the file to reflect your SQL setup.
+You need a MySQL DB called "ipdb" (or you can edit the file and make it whatever you want), a table in that called "iptable" and at least one IP row in that.
+
+May or may not work without adaptation - sensitive info had to be removed from the original file.
