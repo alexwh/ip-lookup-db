@@ -1,0 +1,3 @@
+Checks the user's IP against a DB and if there was an entry of the IP in the DB, return true.
+
+Originally used in an environment for a VPN site - to show their users were secure.
